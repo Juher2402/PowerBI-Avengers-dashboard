@@ -1,29 +1,43 @@
-# Avengers
+🦸 Avengers Mortality Dashboard
 
-This folder contains the data behind the story [Joining The Avengers Is As Deadly As Jumping Off A Four-Story Building](http://fivethirtyeight.com/features/avengers-death-comics-age-of-ultron).
+📊 Power BI Dashboard Project
 
-`avengers.csv` details the deaths of Marvel comic book characters between the time they joined the Avengers and April 30, 2015, the week before Secret Wars #1.
+📖 Overview
 
-Header | Definition
----|---------
-`URL`| The URL of the comic character on the Marvel Wikia
-`Name/Alias` | The full name or alias of the character
-`Appearances` | The number of comic books that character appeared in as of April 30 
-`Current?` | Is the member currently active on an avengers affiliated team?
-`Gender` | The recorded gender of the character
-`Probationary` | Sometimes the character was given probationary status as an Avenger, this is the date that happened
-`Full/Reserve` | The month and year the character was introduced as a full or reserve member of the Avengers
-`Year` | The year the character was introduced as a full or reserve member of the Avengers
-`Years since joining` | 2015 minus the year
-`Honorary` | The status of the avenger, if they were given "Honorary" Avenger status, if they are simply in the "Academy," or "Full" otherwise
-`Death1` | Yes if the Avenger died, No if not. 
-`Return1` | Yes if the Avenger returned from their first death, No if  they did not, blank if not applicable
-`Death2` | Yes if the Avenger died a second time after their revival, No if they did not, blank if not applicable
-`Return2` | Yes if the Avenger returned from their second death, No if they did not, blank if not applicable
-`Death3` | Yes if the Avenger died a third time after their second revival, No if they did not, blank if not applicable
-`Return3` | Yes if the Avenger returned from their third death, No if they did not, blank if not applicable
-`Death4` | Yes if the Avenger died a fourth time after their third revival, No if they did not, blank if not applicable
-`Return4` | Yes if the Avenger returned from their fourth death, No if they did not, blank if not applicable
-`Death5` | Yes if the Avenger died a fifth time after their fourth revival, No if they did not, blank if not applicable
-`Return5` | Yes if the Avenger returned from their fifth death, No if they did not, blank if not applicable
-`Notes` | Descriptions of deaths and resurrections. 
+This project is an interactive Power BI dashboard that analyzes the mortality of Avengers characters across different timelines, comic events, and story arcs. The dashboard provides insights into character fates, survival patterns, and key events that shaped the Avengers universe.
+
+🎯 Objectives
+
+Visualize the mortality rate of Avengers characters.
+
+Identify patterns and trends across timelines and storylines.
+
+Provide interactive filtering to explore data by character, team, or comic event.
+
+Highlight key insights about survival and mortality in the Marvel universe.
+
+🛠️ Tools & Technologies
+
+Power BI Desktop – for building the dashboard.
+
+Data Source(s) – [CSV File].
+
+Power Query – for data cleaning and preparation.
+
+GitHub – version control & sharing the project.
+
+📊 Dashboard Features
+
+KPIs & Metrics: number of Avengers, mortality rates, survival counts.
+
+Visualizations: timelines, character breakdowns, pie/bar charts.
+
+📢 Author
+
+Created by [JuherKhan] – feel free to connect on LinkedIn www.linkedin.com/in/juher-khan-127490338 or reach out for collaboration.
+<img width="1331" height="743" alt="image" src="https://github.com/user-attachments/assets/4069848c-18f4-4e14-973e-fda3f284d42d" />
+
+
+Filters & Slicers: by year, event, or individual Avenger.
+
+Insights: character mortality patterns, survival ratios, and storyline outcomes.
